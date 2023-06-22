@@ -4,6 +4,13 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
+@media screen and (max-width: 620px) {
+  body {
+    font-size: 0.5rem;
+    display: grid;
+  }
+}
+
 .navbar {
   height: 60px;
   background-color: #0f1111;
